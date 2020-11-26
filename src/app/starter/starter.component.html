@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+
+  <body class="d-flex flex-column h-100">
+    <div class="skiplinks container-fluid">
+      <a href="#content" class="sr-only sr-only-focusable">Skip to content</a>
+      <a href="#news-table" class="sr-only sr-only-focusable">Skip to news list</a>
+    </div>
+    <header role="banner">
+      <nav role="navigation" class="navbar navbar-dark bg-dark navbar-expand-md" aria-label="Main navigation">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOAAAADhCAMAAADmr0l2AAAAkFBMVEX/ZgD/////YgD/p4H/l2b/WgD/XgD/VwD/XwD/7ef/9/T/onv/dy//nHX/u6D/cSf/4db/iFL/08L/fkH/bBv/3M7/+/n/zb3/j17/593/tZj/x7H/UwD/tp3/mXD/y7f/hEv/kGD/ag7/ilj/rYz/8uz/vqb/qon/2Mr/gUb/mWn/SgD/0bz/sJT/fDz/w6o3JG3yAAAI1ElEQVR4nO2a53rqOBCGbYEKLQZCxwFMIDGcJNz/3a1c1NyA7O6zDDvfH4KQRnrVZiTF855apPVft+BfFgJCFwJCFwJCFwJCFwJCFwJCFwJCFwJCFwJCFwJCFwJCFwJCFwJCFwJCFwJCFwJCFwJCFwJCFwJCFwJCFwJCFwJCFwJCFwJCFwJCFwJCFwJCFwJCFwJCFwJCFwJCFwJCFwJCFwJCFwJCFwJCFwJCFwJCFwJCFwJCFwJCFwJCFwJCFwJCFwJCFwJCFwJCFwJCFwJCFwJCFwJCFwJCFwJCFwJCFwJCFwJCFwJCFwJCFwJCFwJCFwJCFwJCFwJCFwJCFwJCFwJCFwJCFwJCFwJCFwJCFwJCFwJCFwJCFwJCFwJCFwJCFwJCFwJCFwJCFwICEGGZhOcxRlQSyX+ED0jeX95SfYrg422TgJH220s/R4UPKFZ+pi5/9f0Zl0m86/vvTwMo5yM9+duQMvLqz/wzkWMqP58IUFKM/DmVH6/+lz+lHh3722cF3K79PSHJx7MC9v0V//Rfn3cE/3S6fzrHP3N/9KSA4cEf+N/h8wJSIh2GR7fPCvhF5RYaU3rLCBIihCDkqvFiFpLqhmK1mW4w4FaSALIcUDrBBWFXAQVlu8H392GwY1QUbNNMJPs7WCys3xgXwXsUvfcJpyVwwaiyLl6jTfvEinkykz9RO/oRab15ZazQOBq8t8/RjnAVe3KmPwiXaYw3xqKMtYa+0vBT2PZJb5wqjojHX7ezZMqrivn7uqOKHecbu2uSNrU+pvvEuvhU1ocb7iISPhrnvy0PjJDdcCo1nFstEKw3VZV0Lj+8eayrAAn/9l29WT3NPvLEFvXi7K+8WNg7usVmn6HmW2ZJESF0ZedZenYDiTe1y0dyT8xAqGncwa1kGrjDex1QBIV2JsPR14PBXvK0wUn9mhWbLEvF/KVaJ0n4m2gVRl03S9cCFKdC+fO6AEj25Vpa1KtXGVDsyu2UGilCDXjRvyVNFKPKYqplCjBel7LEXDfmtVzeNUMms4pKVg2EJUDyU9lQ3z+RAqCR/IVUd4vvr6kDWKVXNYakqvUOoKg2Myjsg02ANSbkgmgE3FuN2V4uY9PUPakCPFrLYJ0vIh6bn+OxMxVzQK42IL+7bvVWZr3ua3eaIiC1plA3HsdWO+a0DjCx08uRLhNOGaNc5zqIEuB8xDj3dGM72Rw1k2DWDinlwdiUyACJXgYvlEonzQO1Z49rJ2kBkATG5o5LB8RPpid/SAVgZzqepyOf7q7Hvtpvw7FTtwU4nWQuNNQeJStC9YDs0z4hoakpA+TKu7zky5ZQNQBBbdDgApoBjMPcheqW5kNoA65HSSfkvUcn8VGY4GKT51kWAFu5YU/o/T5tHZmor221okLtjFNA3ftH7X3IQiHX+YoioFo7XTPmXE/TAmC37wYihFoBllBVFwDNni5jqlzp/ZBQzrdjmq83vBRQX74czJ4S5nY7eituBDSTvGdskLNKjIgD+FMzLYhcgtRrVQMaw6TvAOoZujKDwdX6SAHp0M6fiar5VcNXAGQ6yLAXLVfD+sEcwNArSwajJFqN9fJqAtTrPW2wrmVkRU1vNiBX+b2JFtnanX8VUPfHlNamGsDyrBD89GGx3QWoHc3Eap2aPAmgtQFW6FDjCguAakp82GtWj+uRNwIysioHebcCGidhVU1U6JYCVsdKVS2uBTRbgd0fomcj1QESWnaQ9wC2K8zq2C0F3PgN2tZ4whrAnhPiO3XXAIqfwugpU8MbAXXzbUBnBAdNgPObAOmvAZ1Ye/lxDkI1r+8GtFqq5+11wO3fmKJu51YCWhtA9+DJczbR2e4GrKrZmaLd9qCs3U27KFdboBMYaBdcv8loh+WveEZwN6CeAlbUpYMdZ5PphqRC1XzFKaqcrRO8UuVrhnVuwrRuoBLvBtSR2rnCjbtuovEI3wioryO69vrSsdradfQmD1Mh7FQ7/3sBPaq+XaxIRjn/LJJx8v8K0Gwn78aG3sr8gRuqGUDtP1vlm42bAVUgZjpX6HXphmqOUycVN3O1gB5RFpcmDjMxfeG4ZAD1GG90ZfTOXdQKEw/qfkJv6hmgrvloBYlkN+zfcSejJ72/UkbMLda0cJqoANR9yyYq6VZAE3v7Cy73DMKYubrMjks6h3Uk2ctZvPXqV2VxBM3Vyjo9NFP6YeqtHUE9efKjDgl18HMzoDnOSq/9vvdOK+uGJj/w6r36nN2GEtrP7NZfOxWvLKxa/K/vz+8v83WYATVuMv46TE7AG+tC5dZguzHWzK8sFjohHgnO2WmrE24FbAjZ872r0k1EOlf362voFLsZ0LpSqgG0r6VkTfY1T10oWr5VY3UhbS+f55WOnlYcI+4G9FjJinPgTcrU3Pktb56isq2tShN6lleHau+Vhe4EJPvirbd9mkhzVF78NvBVXd3TqjHsaRPVwTYtvBj4HRUa3wHoEWLPQX8W2KeJvA+KB2qpyz03217yyjAtWBhaDxw1xyW3W5Ybri4YckDV842AMl9k9qd4L+zTRF6q9DI0fb3vbSI1cppbFsY7+4lKfC4zDV27QnxnbZtNV31ZgF2ybNnLF42HqZZtYypY5mn2pSbhwed2OhyOvwNKSBlQ9jBtmQFYvgTN72c1D6CE0tFhHcfx+ntUfKUU+QNoqd8EFUEQeJxmt6PMebuk1rOpUlWarDurIDGi72TcRZY8gEabwWYRSPPXnoJrn7CT91hZXtwR2Hrl9+z7ZVvQ4Vvpar75jGRnfKB/QiDp2E2so2uoFmTtxfV1o48DSPrt1XwpNyM965iOXBa/nhiPA0h0+BonC1AOJzeB8a8H8IEAzVHNn60H0SL6NHvl5SkAmTm3FPU3rD4QYH1AG9W/UF/VIwGSfTXhoClSuWr0gQCl6604MHV+fr8AvQcDlKHoLnbxpu0r/8l0TQ8GKGNEb7CeHruz7nEZv7SvXJndYvDBAL3sgTjR9TjzJmuPB/jPCgGh6/8AWPUW9TyiLa/9vDqfz+2XvwBaDX0BVqGLdgAAAABJRU5ErkJggg==" alt="Back to homepage" title="Back to homepage" width="50" height="50" loading="lazy"/>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#orange-navbar-collapse" aria-controls="orange-navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="navbar-collapse justify-content-between collapse" id="orange-navbar-collapse">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link d-inline-flex align-items-center" href="../administration-edition-page/">
+                  Edit news
+                  <span class="icon icon-Pencil ml-1" aria-hidden="true"></span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link d-inline-flex align-items-center" href="#">
+                  Preferences
+                  <span class="svg-settings ml-1" aria-hidden="true"></span>
+                </a>
+              </li>
+            </ul>
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <button type="button" class="nav-link btn btn-link btn-inverse dropdown-toggle d-flex align-items-center" data-toggle="dropdown">
+                  <span class="svg-avatar mr-1" aria-hidden="true"></span>
+                  <span>Hello <span class="text-primary">Admin</span></span>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-right">
+                  <li><a class="dropdown-item" href="#">Logout</a></li>
+                  <li><a class="dropdown-item" href="#">Preferences</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container -->
+      </nav>
+    </header>
+
+    <main role="main" id="content" class="my-5">
+      <div class="container-fluid">
+        <h1>News administration</h1>
+      </div>
+
+      <div id="localContainer" class="o-nav-local navbar-light">
+        <nav role="navigation" class="container-fluid" aria-label="News categories navigation">
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">All</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">World</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Entertainment</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Finance</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Technology</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Weather</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sport</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Video</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pictures</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Health</a>
+            </li>
+          </ul>
+          <!-- /.navbar-collapse -->
+        </nav>
+      </div>
+
+      <div class="container-fluid">
+        <table id="news-table" class="table tablesorter mb-5">
+          <caption>
+            News list
+            <a href="../administration-edition-page/" class="btn btn-sm btn-secondary ml-3">Add news</a>
+          </caption>
+          <thead class="cf">
+            <tr>
+              <th scope="col" class="header">ID</th>
+              <th scope="col" class="header">Title</th>
+              <th scope="col" class="header">Date</th>
+              <th scope="col" class="header">Category</th>
+              <th scope="col" class="header">Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="align-middle">1</td>
+              <td class="align-middle">Eat 5 fruits and vegetables a day</td>
+              <td class="align-middle">07/07/2014 09:00</td>
+              <td class="align-middle">Health</td>
+              <td class="align-middle">
+                <a href="../administration-edition-page/" class="btn btn-sm btn-primary">Edit</a>
+                <button type="button" class="btn btn-sm btn-danger" data-toggle="modal" data-target="#confirm-dialog">Delete</button>
+              </td>
+            </tr>
+            <tr>
+              <td class="align-middle">9</td>
+              <td class="align-middle">Eat potatoes</td>
+              <td class="align-middle">09/24/2014 10:00</td>
+              <td class="align-middle">Health</td>
+              <td class="align-middle">
+                <a href="../administration-edition-page/" class="btn btn-sm btn-primary">Edit</a>
+                <button type="button" class="btn btn-sm btn-danger" data-toggle="modal" data-target="#confirm-dialog">Delete</button>
+              </td>
+            </tr>
+            <tr>
+              <td class="align-middle">10</td>
+              <td class="align-middle">Chikungunya: protect yourself</td>
+              <td class="align-middle">09/06/2014 09:00</td>
+              <td class="align-middle">Health</td>
+              <td class="align-middle">
+                <a href="../administration-edition-page/" class="btn btn-sm btn-primary">Edit</a>
+                <button type="button" class="btn btn-sm btn-danger" data-toggle="modal" data-target="#confirm-dialog">Delete</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <!-- Modal -->
+        <div class="modal fade" id="confirm-dialog" role="dialog" aria-labelledby="myModalLabel" tabindex="-1">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2 class="modal-title h4" id="myModalLabel">Confirm deletion</h2>
+                <!-- Boosted mod: using visually hidden text instead of aria-label -->
+                <button type="button" class="close" data-dismiss="modal">
+                  <span class="sr-only">Close confirmation modal</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p>If you delete this entry, all information will be permanently lost. Are you sure?</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-primary" data-dismiss="modal">OK</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- fin modal -->
+        <!-- Nav tabs A-->
+        <ul class="nav nav-tabs nav-tabs-light">
+          <li class="nav-item">
+            <a class="nav-link active" href="#help" data-toggle="tab">Help</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#faq" data-toggle="tab">FAQ</a>
+          </li>
+        </ul>
+        <div class="tab-content border-left-0 border-right-0 border-bottom-0">
+          <div class="tab-pane active" id="help">
+            <p>From this view, you can edit or delete entry of your web site. You can also add an entry by clicking on "Add news" button.</p>
+            <p>You can reorder column by clicking on them.</p>
+            <p>Finally, you can search an item by typing his title or his ID in the search field, at the top of the page.</p>
+          </div>
+          <div class="tab-pane" id="faq">
+            <ul>
+              <li><a href="#">I can't delete an entry</a></li>
+              <li><a href="#">I've got an error 500 when i try to edit an entry</a></li>
+              <li><a href="#">Another question</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- fin nav tabs A -->
+      </div>
+    </main>
+    <!--/.container-->
+    <footer role="contentinfo" class="o-footer mt-auto">
+      <div class="o-footer-bottom">
+        <div class="container-fluid">
+          <p class="my-2">© Orange 2015</p>
+        </div>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../assets/dist/js/boosted.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.1/js/jquery.tablesorter.min.js" integrity="sha384-QnFIXbEfAgO7z63b/aNzTSdSNLoNiNX/mk/Ok+NpUNMnvriWLo5cOtB0OUCAdKNu" crossorigin="anonymous"></script>
+    <script>window.jQuery.tablesorter || document.write('<script src="../assets/js/vendor/jquery.tablesorter.min.js"><\/script>')</script>
+    <script>$(document).ready(function() {
+      $('.o-nav-local').prioritynav();
+
+      $("#news-table").tablesorter({
+        // pass the headers argument and assing a object
+        headers: {
+          // assign the secound column (we start counting zero)
+          4: {
+            // disable it by setting the property sorter to false
+            sorter: false
+          }
+        },
+        // manipulate the template string after is it created
+        onRenderTemplate : function(i, t){
+          // put a span arround the text
+          return '<span>' + t + '</span>';
+        }
+      });
+    });</script>
+  </body>
+</html>
